@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Eventario.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Eventario"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>
+            <Button Content="Get JSON string" x:Name="buttonStringGet" Click="buttonStringGet_click_1" />
+            <TextBlock x:Name="resultText" Style="{StaticResource BodyTextBlockStyle}" TextWrapping="Wrap" />
+        </StackPanel>
+    </Grid>
+</Page>
